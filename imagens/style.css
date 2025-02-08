@@ -1,0 +1,100 @@
+@font-face {
+    font-family:passion;
+    src: url(PassionOne-Regular.ttf);
+}
+@font-face {
+    font-family:sri;
+    src: url(Sriracha-Regular.ttf);
+}
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    min-height: 100vh;
+    background-color: rgb(211, 211, 211);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header{
+    background-color: black;
+    color: white;
+    padding-top: 50px;
+    text-align: center;
+    
+}
+header h1{
+    font-variant: small-caps;
+    font-family:passion;
+    font-size: 3em;
+}
+header p{
+    padding-bottom: 50px;
+}
+header a, footer a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+header a:hover, footer a:hover{
+    text-decoration: underline;
+
+}
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-family:sri;
+    font-size: 1.5em;
+}
+section p{
+    padding-bottom: 2em;
+}
+
+
+.normal{
+    color: black;
+    background-color: white;
+}
+.imagem{
+    color: white;
+    background-color: rgba(63, 63, 63, 0.774);
+    box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.685);
+    background-attachment: fixed;
+}
+.imagem p{
+    background-color: rgba(15, 15, 15, 0.623);
+    padding: 10px;
+    display: inline-block;
+    box-shadow: 1px 2px 0px rgba(0, 0, 0, 0.699);
+    
+} 
+.imagem#img01 {
+background-image: url(imagens/background001.jpg);
+background-position: right center;
+background-size: cover;
+}
+
+.imagem#img02 {
+background-image: url(imagens/background002.jpg);
+background-position: right center;
+background-size: cover;
+}
+
+
+
+
+
+
+
+
+
+footer{
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
